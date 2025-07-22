@@ -6,6 +6,9 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+html, body {
+  @apply h-screen w-screen overflow-hidden;
+}
 
 @custom-variant dark (&:is(.dark *));
 
